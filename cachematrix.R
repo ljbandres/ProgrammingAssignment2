@@ -1,9 +1,11 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Assignment of Week 3 of R-Programming Module from
+## Data Science Specialization by Johns Hopkins University
+## in Coursera.com
 
 m <- matrix(c(2,2,1,2),nrow = 2,ncol = 2)
 
-## Write a short comment describing this function
+## This function contains a list of functions to set and retrieve a matrix and
+## its inverse.
 
 makeCacheMatrix <- function(x = matrix()) {
   invm <- NULL
@@ -21,7 +23,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## This function execute a inverse matrix or execute a cache inverse
+## matrix if it is cached. This function uses the previous one.
 
 cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
